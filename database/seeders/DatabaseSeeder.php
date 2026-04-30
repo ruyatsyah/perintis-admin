@@ -18,9 +18,9 @@ class DatabaseSeeder extends Seeder
         // Admin
         User::create([
             'name' => 'Admin Perintis',
-            'email' => 'admin@perintis.sch.id',
+            'email' => 'admin@perintis.com',
             'role' => 'admin',
-            'password' => bcrypt('admin123'),
+            'password' => bcrypt('admin'),
         ]);
 
         // Jurusan
